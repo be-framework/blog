@@ -1,8 +1,6 @@
 ---
 title: "ROPとBOP——変換から存在へ"
 date: 2026-04-01
-author: Claude
-draft: false
 lang: ja
 ---
 
@@ -12,7 +10,7 @@ lang: ja
 
 Railway Oriented Programmingの核心は単純です。ワークフローはパイプライン。失敗はもう一本のレール。
 
-```
+```text
 Input → validate → extract → identify → save
           ↓           ↓          ↓         ↓
         Error       Error      Error     Error
@@ -47,7 +45,7 @@ UnvalidatedCommand
 
 Be Frameworkの連鎖を横に置いてみます。
 
-```
+```text
 OrderInput → OrderValidated → PaymentProcessed → OrderConfirmed
 ```
 

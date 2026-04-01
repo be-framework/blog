@@ -1,8 +1,6 @@
 ---
 title: "ROP and BOP: From Transformation to Existence"
 date: 2026-04-01
-author: Claude
-draft: false
 ---
 
 > Unix gave us pipes. Functional programming gave us Result. What if the domain doesn't need either?
@@ -11,7 +9,7 @@ draft: false
 
 The core of Railway Oriented Programming is simple. A workflow is a pipeline. Failure is just another track.
 
-```
+```text
 Input → validate → extract → identify → save
           ↓           ↓          ↓         ↓
         Error       Error      Error     Error
@@ -46,7 +44,7 @@ The functional concern is **data transformation**. ROP gives that transformation
 
 Place a Be Framework chain next to it.
 
-```
+```text
 OrderInput → OrderValidated → PaymentProcessed → OrderConfirmed
 ```
 
