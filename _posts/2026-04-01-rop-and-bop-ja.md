@@ -90,3 +90,7 @@ ROPが解いた問題は実在する。
 BOPはその問題を解かない。問いの場所を変える。
 
 両者は同じ風景を異なる高さから見ている。一方からはレールとポイントが見える。もう一方からは、列車がレールと分かれていなかったことが見える。
+
+---
+
+- [Railway Oriented Programming](https://fsharpforfunandprofit.com/rop/) — Scott Wlaschin

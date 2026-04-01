@@ -89,3 +89,7 @@ ROP solved a real problem.
 BOP doesn't solve that problem. It moves where the question is.
 
 The two look at the same landscape from different elevations. From one, you see tracks and switches. From the other, the trains were never separate from the rails.
+
+---
+
+- [Railway Oriented Programming](https://fsharpforfunandprofit.com/rop/) — Scott Wlaschin
